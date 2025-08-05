@@ -1,0 +1,14 @@
+{
+    "content": "#!/usr/bin/python3\nimport sys\nimport time\nprint(\"START\", flush=True)\nif ${var12}==3:\n print(\"Fail\")\n exit(1)\nelse:\n print(\"Success\")\n exit(0)",
+    "description": null,
+    "exportReleaseLevel": "7.6.3.2",
+    "exportTable": "ops_script",
+    "notes": [],
+    "opswiseGroups": [],
+    "resolveVariables": true,
+    "retainSysIds": true,
+    "scriptName": "py1",
+    "scriptType": "Script",
+    "sysId": "799e60e7e86f4006a48d0da30c9eded5",
+    "version": 31
+}

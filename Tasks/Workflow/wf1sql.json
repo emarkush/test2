@@ -1,0 +1,207 @@
+{
+    "type": "taskWorkflow",
+    "actions": {
+        "abortActions": [],
+        "emailNotifications": [],
+        "setVariableActions": [],
+        "snmpNotifications": [],
+        "systemOperations": []
+    },
+    "calculateCp": false,
+    "calendar": null,
+    "cpDuration": null,
+    "cpDurationUnit": "Minutes",
+    "criticalEndpoints": [],
+    "customField1": {
+        "label": null,
+        "value": null
+    },
+    "customField2": {
+        "label": null,
+        "value": null
+    },
+    "efDayConstraint": "None",
+    "efDuration": "00:00:00:00",
+    "efEnabled": false,
+    "efNthAmount": 5,
+    "efOffsetDuration": null,
+    "efOffsetDurationUnit": "Minutes",
+    "efOffsetPercentage": 0,
+    "efOffsetType": "Percentage",
+    "efTime": "00:00",
+    "efType": "Time",
+    "enforceVariables": false,
+    "exclusiveTasks": [],
+    "exclusiveWithSelf": false,
+    "executionRestriction": "None",
+    "exportReleaseLevel": "7.6.3.2",
+    "exportTable": "ops_task_workflow",
+    "firstRun": "",
+    "holdResources": false,
+    "instanceWait": "-- None --",
+    "lastRun": "",
+    "layoutOption": "-- None --",
+    "lfDayConstraint": "None",
+    "lfDuration": "00:00:00:00",
+    "lfEnabled": false,
+    "lfNthAmount": 5,
+    "lfOffsetDuration": null,
+    "lfOffsetDurationUnit": "Minutes",
+    "lfOffsetPercentage": 0,
+    "lfOffsetType": "Percentage",
+    "lfTime": "00:00",
+    "lfType": "Time",
+    "lockVariables": false,
+    "logLevel": "Inherited",
+    "lsDayConstraint": "None",
+    "lsDuration": "00:00:00:00",
+    "lsEnabled": false,
+    "lsNthAmount": 5,
+    "lsTime": "00:00",
+    "lsType": "Time",
+    "name": "wf1sql",
+    "notes": [],
+    "numberOfTasks": 5,
+    "opswiseGroups": [],
+    "overrideCalendar": false,
+    "overrideInstanceWait": "No",
+    "resPriority": 10,
+    "resolveNameImmediately": false,
+    "restrictionPeriod": "None",
+    "restrictionPeriodAfterDate": null,
+    "restrictionPeriodAfterTime": null,
+    "restrictionPeriodBeforeDate": null,
+    "restrictionPeriodBeforeTime": null,
+    "restrictionPeriodDateList": [],
+    "retainSysIds": true,
+    "runCount": 0,
+    "runCriteria": [],
+    "runTime": 0,
+    "simulation": false,
+    "skippedOption": "Show Skipped",
+    "startHeld": false,
+    "startHeldReason": null,
+    "stepActions": [],
+    "stepConditions": [],
+    "summary": null,
+    "sysId": "7ebf55d580f24463b46424743ba6589c",
+    "timeZonePref": "-- System Default --",
+    "twDelayAmount": null,
+    "twDelayDuration": "00:00:00:00",
+    "twDelayType": "None",
+    "twWaitAmount": null,
+    "twWaitDayConstraint": "None",
+    "twWaitDuration": "00:00:00:00",
+    "twWaitTime": "00:00",
+    "twWaitType": "None",
+    "twWorkflowOnly": "-- System Default --",
+    "userEstimatedDuration": null,
+    "variables": [],
+    "version": 7,
+    "virtualResources": [],
+    "workflowEdges": [
+        {
+            "condition": {
+                "value": "Success"
+            },
+            "sourceId": {
+                "taskName": "test1sql",
+                "value": "4"
+            },
+            "straightEdge": true,
+            "targetId": {
+                "taskName": "echo",
+                "value": "5"
+            }
+        },
+        {
+            "condition": {
+                "value": "Success"
+            },
+            "sourceId": {
+                "taskName": "Sleep 30",
+                "value": "7"
+            },
+            "straightEdge": true,
+            "targetId": {
+                "taskName": "test1sql",
+                "value": "4"
+            }
+        },
+        {
+            "condition": {
+                "value": "Success"
+            },
+            "sourceId": {
+                "taskName": "Sleep:task",
+                "value": "9"
+            },
+            "straightEdge": true,
+            "targetId": {
+                "taskName": "Sleep 30",
+                "value": "7"
+            }
+        },
+        {
+            "condition": {
+                "value": "Success"
+            },
+            "sourceId": {
+                "taskName": "echo",
+                "value": "5"
+            },
+            "straightEdge": true,
+            "targetId": {
+                "taskName": "WST",
+                "value": "11"
+            }
+        }
+    ],
+    "workflowVertices": [
+        {
+            "alias": null,
+            "task": {
+                "value": "test1sql"
+            },
+            "vertexId": "4",
+            "vertexX": "620",
+            "vertexY": "250"
+        },
+        {
+            "alias": null,
+            "task": {
+                "value": "echo"
+            },
+            "vertexId": "5",
+            "vertexX": "700",
+            "vertexY": "420"
+        },
+        {
+            "alias": null,
+            "task": {
+                "value": "Sleep 30"
+            },
+            "vertexId": "7",
+            "vertexX": "760",
+            "vertexY": "170"
+        },
+        {
+            "alias": null,
+            "task": {
+                "value": "Sleep:task"
+            },
+            "vertexId": "9",
+            "vertexX": "550",
+            "vertexY": "70"
+        },
+        {
+            "alias": null,
+            "task": {
+                "value": "WST"
+            },
+            "vertexId": "11",
+            "vertexX": "930",
+            "vertexY": "370"
+        }
+    ]
+}
