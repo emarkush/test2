@@ -2,7 +2,30 @@
     "type": "taskSql",
     "actions": {
         "abortActions": [],
-        "emailNotifications": [],
+        "emailNotifications": [
+            {
+                "bcc": null,
+                "body": "${_resultsAll()}",
+                "cc": null,
+                "description": null,
+                "emailConnection": "smuser",
+                "emailTemplate": null,
+                "emailTemplateVar": null,
+                "exitCodes": null,
+                "listReportFormat": "PDF",
+                "notifyOnEarlyFinish": false,
+                "notifyOnLateFinish": false,
+                "notifyOnLateStart": false,
+                "notifyOnProjectedLate": false,
+                "replyTo": null,
+                "report": null,
+                "reportVar": null,
+                "status": "Success",
+                "subject": "sql",
+                "sysId": "7521261b55dd468582a6b8237057f146",
+                "to": "emilija.markusheska@stonebranch.com"
+            }
+        ],
         "setVariableActions": [
             {
                 "description": null,
@@ -75,9 +98,9 @@
     "exportTable": "ops_task_sql",
     "firstRun": "2025-01-21 05:35:47 -0500",
     "holdResources": false,
-    "lastRun": "2025-07-25 07:55:22 -0400",
-    "lastRunTime": 27,
-    "lastRunTimeDisplay": "27 Seconds",
+    "lastRun": "2025-08-11 06:33:29 -0400",
+    "lastRunTime": 1,
+    "lastRunTimeDisplay": "1 Seconds",
     "lfDayConstraint": "None",
     "lfDuration": "00:00:00:00",
     "lfEnabled": false,
@@ -113,14 +136,14 @@
     "restrictionPeriodBeforeDate": null,
     "restrictionPeriodBeforeTime": null,
     "restrictionPeriodDateList": [],
-    "resultProcessing": "Skip Result Processing",
+    "resultProcessing": "Success Exitcode Range",
     "retainSysIds": true,
     "retryIndefinitely": false,
     "retryInterval": 60,
     "retryMaximum": 0,
     "retrySuppressFailure": false,
-    "runCount": 62,
-    "runTime": 638,
+    "runCount": 65,
+    "runTime": 642,
     "simulation": false,
     "sqlCommand": "SELECT ops_history.`exec_id`, TA_EXEC.`name`, COUNT(0) AS COUNT0, SUM(ops_history.`task_ref_count`) FROM (ops_history LEFT JOIN ops_exec AS TA_EXEC ON ops_history.`exec_id` = TA_EXEC.`sys_id`) GROUP BY ops_history.`exec_id`, TA_EXEC.`name` ORDER BY TA_EXEC.`name`",
     "startHeld": false,
@@ -158,6 +181,6 @@
             "value": "8"
         }
     ],
-    "version": 43,
+    "version": 46,
     "virtualResources": []
 }

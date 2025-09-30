@@ -93,7 +93,7 @@
     "runCount": 4,
     "runTime": 0,
     "simulation": true,
-    "sleepAmount": "1",
+    "sleepAmount": "2",
     "sleepDayConstraint": "None",
     "sleepDuration": "00:00:00:00",
     "sleepTime": "00:00",
@@ -104,7 +104,17 @@
     "sysId": "410d6c0bc0a801c901838d8ac43b3279",
     "timeZonePref": "-- System Default --",
     "userEstimatedDuration": null,
-    "variables": [],
-    "version": 11,
+    "variables": [
+        {
+            "allowEmptyOption": false,
+            "allowUnlistedOption": false,
+            "description": null,
+            "name": "a",
+            "options": [],
+            "sysId": "601d4841efac4e68b983d68ca1b172fb",
+            "value": "5"
+        }
+    ],
+    "version": 17,
     "virtualResources": []
 }

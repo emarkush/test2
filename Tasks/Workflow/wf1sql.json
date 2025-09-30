@@ -97,7 +97,7 @@
     "twWorkflowOnly": "-- System Default --",
     "userEstimatedDuration": null,
     "variables": [],
-    "version": 7,
+    "version": 8,
     "virtualResources": [],
     "workflowEdges": [
         {
@@ -110,7 +110,7 @@
             },
             "straightEdge": true,
             "targetId": {
-                "taskName": "echo",
+                "taskName": "echo${len}",
                 "value": "5"
             }
         },
@@ -147,7 +147,7 @@
                 "value": "Success"
             },
             "sourceId": {
-                "taskName": "echo",
+                "taskName": "echo${len}",
                 "value": "5"
             },
             "straightEdge": true,
@@ -170,7 +170,7 @@
         {
             "alias": null,
             "task": {
-                "value": "echo"
+                "value": "echo${len}"
             },
             "vertexId": "5",
             "vertexX": "700",
