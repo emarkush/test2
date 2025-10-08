@@ -1,0 +1,113 @@
+{
+    "type": "triggerTime",
+    "action": "Do Not Trigger",
+    "adjustInterval": false,
+    "adjustmentAmount": 1,
+    "adjustmentType": "Day",
+    "calendar": "System Default",
+    "customField1": {
+        "label": null,
+        "value": null
+    },
+    "customField2": {
+        "label": null,
+        "value": null
+    },
+    "dateAdjective": "Every",
+    "dateAdjustment": "None",
+    "dateNoun": {
+        "value": "Day"
+    },
+    "dateNouns": [
+        {
+            "value": "Day"
+        }
+    ],
+    "dateQualifier": {
+        "value": "Year"
+    },
+    "dateQualifiers": [
+        {
+            "value": "Year"
+        }
+    ],
+    "dayInterval": 1,
+    "dayStyle": "Every",
+    "description": null,
+    "disabledTime": "",
+    "enabled": false,
+    "enabledEnd": "00:00",
+    "enabledStart": "00:00",
+    "enabledTime": "",
+    "enforceVariables": false,
+    "exportReleaseLevel": "7.6.3.2",
+    "exportTable": "ops_trigger_time",
+    "forecast": false,
+    "fri": false,
+    "intervalStartingDate": "2025-07-15",
+    "lockVariables": false,
+    "mon": false,
+    "name": "JBA_16h30",
+    "nextScheduledTime": "",
+    "notes": [],
+    "nthAmount": 5,
+    "opswiseGroups": [],
+    "rdExcludeBackup": false,
+    "restrictedTimes": false,
+    "restriction": false,
+    "restrictionAdjective": "Every",
+    "restrictionComplex": false,
+    "restrictionMode": "Or",
+    "restrictionNoun": {
+        "value": "Day"
+    },
+    "restrictionNouns": [
+        {
+            "value": "Day"
+        }
+    ],
+    "restrictionNthAmount": 5,
+    "restrictionQualifier": {
+        "value": "Year"
+    },
+    "restrictionQualifiers": [
+        {
+            "value": "Year"
+        }
+    ],
+    "restrictionSimple": false,
+    "retainSysIds": true,
+    "retentionDuration": 1,
+    "retentionDurationPurge": false,
+    "retentionDurationUnit": "Days",
+    "sat": false,
+    "simpleDateType": "Daily",
+    "simulationOption": "-- System Default --",
+    "situation": "Holiday",
+    "skipActive": false,
+    "skipAfterDate": null,
+    "skipAfterTime": null,
+    "skipBeforeDate": null,
+    "skipBeforeTime": null,
+    "skipCondition": "None",
+    "skipCount": 0,
+    "skipDateList": [],
+    "skipRestriction": "None",
+    "startTimeEnable": false,
+    "startingAt": "*:00",
+    "sun": false,
+    "sysId": "37c88aeaba014cbca364dba3e2e51cb1",
+    "tasks": [
+        "conn"
+    ],
+    "thu": false,
+    "time": "16:30",
+    "timeInterval": null,
+    "timeIntervalUnits": "Hours",
+    "timeStyle": "Absolute",
+    "timeZone": null,
+    "tue": false,
+    "variables": [],
+    "version": 2,
+    "wed": false
+}

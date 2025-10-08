@@ -1,0 +1,41 @@
+{
+    "businessDays": {
+        "value": "Monday,Tuesday,Wednesday,Thursday,Friday"
+    },
+    "comments": "Default System Calendar",
+    "customDays": [
+        {
+            "name": "h1",
+            "sysId": "4368b3d772404d888792e1f5ef54ad38"
+        },
+        {
+            "name": "h2",
+            "sysId": "6ed694ae94cd4e7e84ce96e37dd6c412"
+        }
+    ],
+    "exportReleaseLevel": "7.6.3.2",
+    "exportTable": "ops_calendar",
+    "firstDayOfWeek": "Sunday",
+    "firstQuarterStart": {
+        "day": "1",
+        "month": "Jan"
+    },
+    "fourthQuarterStart": {
+        "day": "1",
+        "month": "Oct"
+    },
+    "localCustomDays": [],
+    "name": "System Default",
+    "opswiseGroups": [],
+    "retainSysIds": true,
+    "secondQuarterStart": {
+        "day": "1",
+        "month": "Apr"
+    },
+    "sysId": "77171434c0a801c9016d5b2b5d17ddee",
+    "thirdQuarterStart": {
+        "day": "1",
+        "month": "Jul"
+    },
+    "version": 5
+}

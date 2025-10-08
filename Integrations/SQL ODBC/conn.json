@@ -1,0 +1,293 @@
+{
+    "type": "taskUniversal",
+    "actions": {
+        "abortActions": [],
+        "emailNotifications": [],
+        "setVariableActions": [],
+        "snmpNotifications": [],
+        "systemOperations": []
+    },
+    "agent": "localhost.localdomain - AGNT0001",
+    "agentCluster": null,
+    "agentClusterVar": null,
+    "agentVar": null,
+    "arrayField1": {
+        "fields": [],
+        "label": "Attributes",
+        "name": "attributes"
+    },
+    "autoCleanup": false,
+    "booleanField1": {
+        "label": "Print Column Names",
+        "name": "print_column_names",
+        "value": true
+    },
+    "booleanField2": {
+        "label": "Show Advanced Settings",
+        "name": "show_advanced_settings",
+        "value": true
+    },
+    "booleanField3": {
+        "label": "Authenticate with system user (Trusted Connection)",
+        "name": "trusted_connection",
+        "value": false
+    },
+    "booleanField4": {
+        "label": "Enable autocommit",
+        "name": "enable_autocommit",
+        "value": false
+    },
+    "broadcastCluster": null,
+    "broadcastClusterVar": null,
+    "choiceField1": {
+        "label": "Action",
+        "name": "action",
+        "value": "run_sql_command"
+    },
+    "choiceField10": {
+        "label": "User Defined Metric",
+        "name": "user_defined_metric",
+        "value": "-- None --"
+    },
+    "choiceField11": {
+        "label": "Use Quotes",
+        "name": "quote_option",
+        "value": "always"
+    },
+    "choiceField12": {
+        "label": "Metric Attributes",
+        "name": "metric_attributes",
+        "value": "-- None --"
+    },
+    "choiceField13": {
+        "label": "SQL Source",
+        "name": "sql_source",
+        "value": "SQL as UAC Script"
+    },
+    "choiceField2": {
+        "label": "Database Type",
+        "name": "database_type",
+        "value": "mysql"
+    },
+    "choiceField3": {
+        "label": "Connection Type",
+        "name": "connection_type",
+        "value": "connection_string"
+    },
+    "choiceField4": {
+        "label": "Database Driver",
+        "name": "database_driver",
+        "value": null
+    },
+    "choiceField5": {
+        "label": "Data Source Name (DSN)",
+        "name": "data_source_name",
+        "value": null
+    },
+    "choiceField6": {
+        "label": "Data Output",
+        "name": "data_output",
+        "value": "extension_output"
+    },
+    "choiceField7": {
+        "label": "Output File Type",
+        "name": "output_file_type",
+        "value": "csv"
+    },
+    "choiceField8": {
+        "label": "Column Separator",
+        "name": "column_separator",
+        "value": "comma"
+    },
+    "choiceField9": {
+        "label": "Charset",
+        "name": "charset",
+        "value": "default"
+    },
+    "cpDuration": null,
+    "cpDurationUnit": "Minutes",
+    "createConsole": false,
+    "credentialField1": {
+        "label": "Database Credentials",
+        "name": "database_credentials",
+        "value": "emisql"
+    },
+    "credentials": "emi",
+    "credentialsVar": null,
+    "customField1": {
+        "label": null,
+        "value": null
+    },
+    "customField2": {
+        "label": null,
+        "value": null
+    },
+    "desktopInteract": false,
+    "efDayConstraint": "None",
+    "efDuration": "00:00:00:00",
+    "efEnabled": false,
+    "efNthAmount": 5,
+    "efOffsetDuration": null,
+    "efOffsetDurationUnit": "Minutes",
+    "efOffsetPercentage": 0,
+    "efOffsetType": "Percentage",
+    "efTime": "00:00",
+    "efType": "Time",
+    "elevateUser": false,
+    "enforceVariables": false,
+    "environment": [],
+    "exclusiveTasks": [],
+    "exclusiveWithSelf": false,
+    "executionRestriction": "None",
+    "exitCodeOutput": null,
+    "exitCodeProcessing": "Success Exitcode Range",
+    "exitCodeText": null,
+    "exitCodes": "0",
+    "exportReleaseLevel": "7.6.3.2",
+    "exportTable": "ops_task_universal",
+    "firstRun": "",
+    "holdResources": false,
+    "intField1": {
+        "label": "Database Port",
+        "name": "database_port",
+        "value": null
+    },
+    "intField2": {
+        "label": "Max Rows Returned",
+        "name": "max_rows_returned",
+        "value": null
+    },
+    "intField3": {
+        "label": "Connection Timeout",
+        "name": "connection_timeout",
+        "value": 0
+    },
+    "intField4": {
+        "label": "SQL Statement Timeout",
+        "name": "sql_statement_timeout",
+        "value": 0
+    },
+    "largeTextField1": {
+        "label": "SQL Text",
+        "name": "script_text",
+        "value": null
+    },
+    "lastRun": "",
+    "lfDayConstraint": "None",
+    "lfDuration": "00:00:00:00",
+    "lfEnabled": false,
+    "lfNthAmount": 5,
+    "lfOffsetDuration": null,
+    "lfOffsetDurationUnit": "Minutes",
+    "lfOffsetPercentage": 0,
+    "lfOffsetType": "Percentage",
+    "lfTime": "00:00",
+    "lfType": "Time",
+    "lockVariables": false,
+    "logLevel": "Inherited",
+    "lsDayConstraint": "None",
+    "lsDuration": "00:00:00:00",
+    "lsEnabled": false,
+    "lsNthAmount": 5,
+    "lsTime": "00:00",
+    "lsType": "Time",
+    "name": "conn",
+    "notes": [],
+    "opswiseGroups": [],
+    "outputConditionOperator": "=",
+    "outputConditionStrategy": "Match Any",
+    "outputConditionValue": null,
+    "outputContentType": null,
+    "outputFailureOnly": false,
+    "outputPathExpression": null,
+    "outputReturnFile": null,
+    "outputReturnNline": "100",
+    "outputReturnSline": "1",
+    "outputReturnText": null,
+    "outputReturnType": "NONE",
+    "outputType": "STDOUT",
+    "overrideInstanceWait": "No",
+    "resPriority": 10,
+    "resolveNameImmediately": false,
+    "restrictionPeriod": "None",
+    "restrictionPeriodAfterDate": null,
+    "restrictionPeriodAfterTime": null,
+    "restrictionPeriodBeforeDate": null,
+    "restrictionPeriodBeforeTime": null,
+    "restrictionPeriodDateList": [],
+    "retainSysIds": true,
+    "retryExitCodes": null,
+    "retryIndefinitely": false,
+    "retryInterval": 60,
+    "retryMaximum": 0,
+    "retrySuppressFailure": false,
+    "runCount": 0,
+    "runTime": 0,
+    "runtimeDir": null,
+    "scriptField1": {
+        "label": "Script",
+        "name": "script",
+        "value": "scr7"
+    },
+    "simulation": false,
+    "startHeld": false,
+    "startHeldReason": null,
+    "summary": null,
+    "sysId": "0032e28d6432407799497a83d7243aa7",
+    "template": "SQL ODBC",
+    "textField1": {
+        "label": "Database Host",
+        "name": "database_host",
+        "value": null
+    },
+    "textField2": {
+        "label": "Database Name",
+        "name": "database_name",
+        "value": null
+    },
+    "textField3": {
+        "label": "File Data Source Name (FILEDSN)",
+        "name": "file_data_source_name",
+        "value": null
+    },
+    "textField4": {
+        "label": "Connection String",
+        "name": "connection_string",
+        "value": "Driver={MySQL ODBC 9.2 Unicode Driver};Server=emi;Database=uc;TRUSTSERVERCERTIFICATE=yes;trustedconnection=yes;"
+    },
+    "textField5": {
+        "label": "Output File Path",
+        "name": "output_file_path",
+        "value": null
+    },
+    "textField6": {
+        "label": "Metric Suffix",
+        "name": "metric_suffix",
+        "value": null
+    },
+    "textField8": {
+        "label": "Column For Metric Value Calculation",
+        "name": "column_for_metric_value_calc",
+        "value": null
+    },
+    "textField9": {
+        "label": "Column List",
+        "name": "column_list",
+        "value": null
+    },
+    "timeZonePref": "-- System Default --",
+    "twDelayAmount": null,
+    "twDelayDuration": "00:00:00:00",
+    "twDelayType": "None",
+    "twWaitAmount": null,
+    "twWaitDayConstraint": "None",
+    "twWaitDuration": "00:00:00:00",
+    "twWaitTime": "00:00",
+    "twWaitType": "None",
+    "twWorkflowOnly": "-- System Default --",
+    "userEstimatedDuration": null,
+    "variables": [],
+    "version": 11,
+    "virtualResources": [],
+    "waitForOutput": false
+}
